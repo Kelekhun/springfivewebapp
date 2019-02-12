@@ -11,14 +11,21 @@
 	<groupId>io.kapeed</groupId>
 	<artifactId>springfivewebapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring5webapp</name>
+	<name>springfivewebapp</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 
-	<dependencies>	
+	<dependencies>
+		<!--
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		-->
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
