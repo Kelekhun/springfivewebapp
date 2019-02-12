@@ -42,16 +42,16 @@ public class Publisher {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Publisher)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
+
         Publisher publisher = (Publisher) o;
-        return id.equals(publisher.id) &&
-                Objects.equals(name, publisher.name) &&
-                Objects.equals(address, publisher.address);
+
+        return id != null ? id.equals(publisher.id) : publisher.id == null;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id);
+        return id != null ? id.hashCode() : 0;
     }
 
     @Override
