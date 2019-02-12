@@ -11,7 +11,7 @@
 	<groupId>io.kapeed</groupId>
 	<artifactId>springfivewebapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring5webapp</name>
+	<name>springfivewebapp</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
